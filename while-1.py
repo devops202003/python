@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
-count = 0
-while (count < 9):
+count = 100
+while (count < 200):
    print 'The count is:', count
    count = count + 1
 

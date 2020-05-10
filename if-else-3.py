@@ -1,8 +1,7 @@
-Live Demo
 #!/usr/bin/python
 
-var = 100
-if var < 200:
+var = 150
+if var <= 200:
    print "Expression value is less than 200"
    if var == 150:
       print "Which is 150"
@@ -13,6 +12,6 @@ if var < 200:
    elif var < 50:
       print "Expression value is less than 50"
 else:
-   print "Could not find true expression"
+   print "The variable is beyond 200"
 
 print "Good bye!"
