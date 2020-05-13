@@ -9,4 +9,4 @@ def temp_convert(var):
       print ("The argument does not contain numbers\n", Argument)
 
 # Call above function here.
-temp_convert("qwe")
+temp_convert("123")

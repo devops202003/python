@@ -1,11 +1,14 @@
 #!/Library/Frameworks/Python.framework/Versions/3.7/bin/python3
 
+filename = "/root/testfile"
+
 try:
-   fh = open("testfile", "w")
+   fh = open(filename, "w")
    try:
       fh.write("This is my test file for exception handling!!")
    finally:
-      print ("Going to close the file")
+      print ("File has been written and close the file")
       fh.close()
 except IOError:
-   print ("Error: can\'t find file or read data")
+   print ("Error: " + str(filename) + " No such File or Directory")
+   print ("{}",format(filename))
