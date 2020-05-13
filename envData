@@ -1,0 +1,19 @@
+[
+  {
+    "dev": {
+      "ami": "ami-0470e33cd681b2476",
+      "instance_type": "t2.micro",
+      "keypair": "python"
+    },
+    "qa": {
+      "ami": "ami-0470e33cd681b2476",
+      "instance_type": "t2.micro",
+      "keypair": "python"
+    },
+    "uat": {
+      "ami": "ami-0470e33cd681b2476",
+      "instance_type": "t2.micro",
+      "keypair": "python"
+    }
+  }
+]
